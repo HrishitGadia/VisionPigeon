@@ -1,0 +1,80 @@
+#Home {
+    height: 96vh;
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+}
+
+#ListItems {
+    overflow-y: scroll;
+}
+
+#header {
+    background-color: coral;
+}
+
+#List {
+    height: fit-content;
+}
+
+#Msgsa {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+
+.Right {
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    background-color: orange;
+
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    margin-right: 5px;
+}
+
+.Left {
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    background-color: orange;
+
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+
+    margin-right: 5px;
+}
+
+.Icon {
+    height: 50px;
+    width: 75px;
+    border-radius: 100%;
+}
+
+.header {
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+}
+
+.profile {
+    height: 75px;
+    width: 100px;
+}
+
+#Visiblity,#GrpName,#GrpSeen,#GrpIcon,#GrpDes {
+    width: 80%;
+}
+
+#add{
+    background-color: transparent;
+    border: none;
+}
+
+#group{
+    bottom: 0;
+    left: 0;
+}
